@@ -9,19 +9,18 @@ const NavBar = () => {
                 <ul>
                     {navLinks.map(({ label }) => (
                         <li key={label} > 
-                            <a href={label}>{label}</a>
+                            <a href={`#${label.toLowerCase()}`}>{label}</a>                        
                         </li>
                     ))}
                 </ul>
 
                 <div className="flex-center gap-3">
-                    <botton>
+                    <button type="button">
                         <img src="/search.svg" alt="Search"/>
-                    </botton>
-                    <botton>
+                    </button>
+                    <button type="button">
                         <img src="/cart.svg" alt="Cart"/>
-                    </botton>
-                </div>
+                    </button>                </div>
             </nav>
         </header>
      );
