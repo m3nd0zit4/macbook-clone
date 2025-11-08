@@ -12,8 +12,8 @@ const Showcase = () => {
                     trigger: '#showcase',
                     start: 'top top',
                     end: 'bottom center',
-                    scrub: 'true',
-                    pin: 'true'
+                    scrub: true,
+                    pin: true
                 }
             });
 
