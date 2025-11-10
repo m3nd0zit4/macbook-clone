@@ -14,7 +14,7 @@ const Showcase = () => {
                 scrollTrigger: {
                     trigger: '#showcase',
                     start: 'top top',
-                    end: '+=130vh', 
+                    end: '+=160vh', 
                     scrub: true,
                     anticipatePin: 1,
                     pinSpacing: true,

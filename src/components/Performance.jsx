@@ -66,7 +66,7 @@ const Performance = () => {
 
     return (
         <section id="performance" ref={sectionRef}>
-            <h2>Next-level graphics performance. Game on.</h2>
+            <h2>El siguiente Nivel en graficos.</h2>
 
              <div className="wrapper">
                 {performanceImages.map((item, index) => (
@@ -81,16 +81,15 @@ const Performance = () => {
 
             <div className="content">
                 <p>
-                    Run graphics-intensive workflows with a responsiveness that keeps up
-                    with your imagination. The M4 family of chips features a GPU with a
-                    second-generation hardware-accelerated ray tracing engine that renders
-                    images faster, so{" "}
+                    Ejecuta flujos de trabajo con uso intensivo de gráficos con una capacidad de respuesta que sigue el ritmo de tu imaginación.
+                    La familia de chips M4 incluye una GPU con un motor de trazado de rayos acelerado por hardware de segunda generación que renderiza imágenes más rápido.
+                    Así, las imágenes se renderizan más rápido.{" "}
                     <span className="text-white">
-            gaming feels more immersive and realistic than ever.
+            Los juegos se sienten más inmersivos y realistas que nunca.
           </span>{" "}
-                    And Dynamic Caching optimizes fast on-chip memory to dramatically
-                    increase average GPU utilization — driving a huge performance boost
-                    for the most demanding pro apps and games.
+                    Y el almacenamiento en caché dinámico optimiza la memoria rápida integrada para aumentar drásticamente
+                    la utilización promedio de la GPU, lo que genera un enorme aumento de rendimiento
+                    para las aplicaciones y juegos profesionales más exigentes.
                 </p>
             </div>
         </section>
